@@ -1,0 +1,17 @@
+# Build output
+node_modules
+dist
+
+# Testing
+test-results
+playwright-report
+
+# Environment
+.env
+
+# Docker
+../frontend/Dockerfile
+.dockerignore
+
+# Docs
+*.md

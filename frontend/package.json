@@ -1,0 +1,32 @@
+{
+  "name": "studyplanner",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "eslint",
+    "prettier": "prettier --write \"src/**/*.{ts,js,css,html}\"",
+    "fetch:openapi": "node ../frontend/scripts/fetch-openapi-spec.mjs",
+    "generate:openapi": "openapi --input ./openapi.json --output src/client/_generated_ --client fetch",
+    "sync:openapi": "npm run fetch:openapi && npm run generate:openapi && npm run prettier"
+  },
+  "dependencies": {
+    "lucide-react": "^1.61.0",
+    "next": "16.4.2",
+    "react": "19.3.0",
+    "react-dom": "19.3.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "eslint": "^9",
+    "eslint-config-next": "16.4.2",
+    "openapi-typescript-codegen": "^0.29.0",
+    "prettier": "^3.8.1",
+    "typescript": "^5",
+    "vitest": "^4.0.8"
+  }
+}

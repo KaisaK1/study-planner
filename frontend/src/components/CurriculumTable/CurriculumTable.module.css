@@ -1,0 +1,46 @@
+.curriculumTable {
+  width: 100%;
+  table-layout: fixed;
+  border-collapse: separate;
+  border-spacing: 0 8px;
+}
+
+.columnHeader th {
+  text-align: left;
+  padding: 0.75rem 1rem;
+  font-weight: 600;
+}
+
+.curriculumRow td {
+  padding: 15px;
+  background-color: var(--color-table-background);
+  cursor: default;
+}
+
+.curriculumRow td:first-child {
+  border-radius: 10px 0 0 10px;
+}
+
+.curriculumRow td:last-child {
+  border-radius: 0 10px 10px 0;
+}
+
+.columnAction {
+  width: 80px;
+  text-align: right;
+}
+
+.curriculumsEdit {
+  background: var(--color-button);
+  color: var(--color-button-text);
+  text-decoration: none;
+  border-radius: 8px;
+  padding: 10px 20px;
+  font-size: 14px;
+  font-weight: 600;
+  transition: background-color 120ms ease;
+}
+
+.curriculumsEdit:hover {
+  background: var(--color-button-hover);
+}

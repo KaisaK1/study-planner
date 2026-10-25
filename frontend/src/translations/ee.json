@@ -1,0 +1,72 @@
+{
+  "App": {
+    "Name": "StudyPlanner",
+    "UserPlaceholder": "Olivia Jane"
+  },
+  "Nav": {
+    "AriaLabel": "Peamenüü",
+    "Dashboard": "Avaleht",
+    "Studies": "Õpingud",
+    "Curriculums": "Õppekavad",
+    "Schedule": "Tunniplaan",
+    "Settings": "Seaded"
+  },
+  "Common": {
+    "WorkInProgress": "Töös",
+    "Save": "Salvesta",
+    "Saving": "Salvestan...",
+    "AddNew": "Lisa uus",
+    "Autumn": "Sügis",
+    "Spring": "Kevad",
+    "Edit": "Muuda",
+    "Close": "Sulge",
+    "Remove": "Eemalda"
+  },
+  "Dashboard": {
+    "Title": "Avaleht"
+  },
+  "Studies": {
+    "Title": "Õpingud"
+  },
+  "Schedule": {
+    "Title": "Tunniplaan"
+  },
+  "Settings": {
+    "Title": "Seaded"
+  },
+  "Curriculums": {
+    "Title": "Õppekavad",
+    "Name": "Nimi",
+    "Credits": "EAPd",
+    "StudyLevel": "Õppeaste",
+    "Master": "Magistriõpe",
+    "Bachelor": "Bakalaureuseõpe",
+    "Integrated": "Integreeritud õpe",
+    "Doctor": "Doktorantuur",
+    "NoCurriculumsNotification": "Hetkel ei leitud ühtegi õppekava"
+  },
+  "CurriculumPlanning": {
+    "Title": "Õppekava planeerimine",
+    "SemesterPlan": "Semestrite kavand",
+    "Subjects": "Õppeained",
+    "Credits": "EAPd",
+    "StudySemester": "Õpetamise semester",
+    "SearchPlaceholder": "Otsi nime järgi...",
+    "NoCoursesNotification": "Hetkel ei leitud ühtegi kursust",
+    "HideCompletedSemesters": "Peida läbitud semestrid",
+    "CurriculumCompletion": "Õppekava täituvus",
+    "NoSemestersNotification": "Hetkel ei leitud ühtegi semestrit",
+    "Modules": "Moodulite täituvus",
+    "RequiredCredits": "Kohustusliku ained",
+    "OptionalCredits": "Valikained",
+    "NoModulesNotification": "Hetkel ei leitud ühtegi moodulit",
+    "AddCourseModalLabel": "Lisa aine modal",
+    "Add": "Lisa",
+    "IntoSemester": "Semestrisse",
+    "AddToPlan": "Lisa aine plaani",
+    "NoAvailableSemester": "See aine on juba kõikidesse sobivatesse semestritesse lisatud",
+    "SaveSuccess": "Plaan salvestatud",
+    "SaveError": "Plaani salvestamine ebaõnnestus",
+    "RemoveCourse": "Eemalda aine"
+  }
+}
